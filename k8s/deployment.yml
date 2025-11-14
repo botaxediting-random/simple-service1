@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: pgmicroservice
-          image: botaxediting/pgmicroservice:latest
+          image: botaxediting-random/pgmicroservice
           ports:
             - containerPort: 3000
           env:
